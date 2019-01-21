@@ -1,0 +1,256 @@
+/* Navigacijski bar */
+
+.navbar{
+    background-color:transparent!important;
+    padding-left: 7%;
+    font-size: 17px;
+
+}
+.collapse{
+    padding-left: 20%;
+    background-color: #e9e2dd;
+    border-radius: 20px;
+
+   
+  
+    
+}
+.navbar .dropdown-menu{
+  background-color: #e9e2dd!important
+  
+}
+.navbar .dropdown-item:hover{
+    
+  background-color:#e9e2dd;
+  color: white;
+  
+}
+.mynav{
+
+    background-color: rgb(243, 247, 250);
+    margin-top: 0;
+    padding: 0;
+}
+.navbar .dropdown-menu{
+    background-color: #808080;
+    
+}
+.dropdown-item:hover{
+    
+    background-color:#808080;
+    
+}
+.nav-item a:hover {
+    color: #808080!important;
+    
+}
+.nav-link, .dropdown-toggle
+  {
+      text-align: left;
+     
+  }
+
+  .dropdown-menu{
+    margin-top:10px;
+    border: none;
+  }
+  .nav-item{
+    
+    text-align: center;
+    padding-top: 3%;
+    width: 25%;
+
+  }
+  .navbar-nav{
+    width: 80%;
+  
+  }
+  .navbar-brand{
+      font-size: 35px;
+      font-weight: bolder;
+  }
+  #nav-kontakt{
+    margin-left: -5%;
+    margin-bottom: -5%;
+   margin-top:-0.2%;
+  }
+  /* Slider */
+  .carousel-item {
+    height: 30vh;
+    max-height: inherit;
+    min-height: inherit;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 20%;
+    margin-top: 0 !important;
+ 
+  }
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+  
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-bottom: 28%;
+  }
+
+.carousel-control-prev, .carousel-control-next{
+    margin-bottom: 13%;
+}
+.carousel-caption
+{
+    color: black;
+}
+  
+/* Prognoza */
+.container1{
+  border: 2px solid rgb(158, 158, 160);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px 0px rgba(0,0,0,0.3);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+
+
+  
+}
+header{
+  margin-top: 3%;
+ padding-left: 10%;
+
+
+}
+#search-btn{
+  color: rgb(70, 70, 70);
+
+}
+#search-txt{
+ 
+  border: 0.5px solid #dbd5d5;
+  padding-left: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+.col2{
+  margin-left: 37%;
+  margin-top: 3%;
+  font-family:"Arial, sans-serif";
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center
+  
+}
+.temperature{
+  margin-top: 5%;
+  margin-left: 20%;
+  font-family:"Arial, sans-serif";
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5%;
+  
+}
+.humidity{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  font-family:"Arial, sans-serif";
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 30%;
+}
+
+/* Kontakt */
+.container{
+  margin-top:5%;
+  border: 2px solid rgb(158, 158, 160);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px 0px rgba(0,0,0,0.3);
+}
+.row1{
+  padding: 5%;
+}
+/* Predlosci s naslovima */
+.container2{
+ 
+  margin: -15% 10% 0 10%;
+  text-align: center;
+  
+}
+
+/* QUIZ */
+.container4{
+  margin:5% 15% 10% 15%;
+  border: 2px solid rgb(158, 158, 160);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px 0px rgba(0,0,0,0.3);
+  padding: 10%
+}
+h3{
+  font-size: 25px;
+  font-weight: bold;
+}
+h2{
+  font-size: 25px;
+  font-weight: bold;
+
+}
+#status_quiz{
+  font-size: 22px;
+
+}
+/* Read More / Read Less */
+
+
+.container3{
+  margin: 5% 10% 0 10%
+
+}
+
+.sakrivenitext{
+  padding: 0% 15% 2% 25%;
+  
+}
+.prvidio, .drugidio{
+  width: 40%;
+  margin: 3%;
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+
+ 
+}
+
+.prvidio p, .drugidio p{
+  display: none;
+
+  
+}
+.urediButton {
+background-color:transparent;
+border:1px solid gray ;
+display:inline-block;
+cursor:pointer;
+  color: gray;
+font-size:15px;
+font-weight:bold;
+font-style:italic;
+padding:5px 20px 5px 20px;
+  text-decoration:none;
+  outline: none;
+  
+ 
+}
+.urediButton:hover {
+background-color:transparent;
+}
+.urediButton:active {
+position:relative;
+top:1px;
+}

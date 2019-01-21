@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!-- CSS -->
+  <link rel="stylesheet" href="css/css.css">
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  
+ 
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/css.css">
+      
+
+
+</head>
+
+<body>
+
+<!-- Navigacijski bar -->
+<div class="mynav">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <a class="navbar-brand" href="index.html">
+           <img src="slike/icon_news.png" width="20px">DailyNews</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNavDropdown">
+         <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="slike/icon_home.png " width="28px">
+                  VIJESTI
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Vijesti iz svijeta</a>
+                    <a class="dropdown-item" href=""> Vijesti iz BiH</a>
+                    <a class="dropdown-item"  href="">Privreda</a>
+                    <a class="dropdown-item"  href="">Sport</a>
+                    
+             
+                  </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="slike/icon_home.png " width="28px">
+                        ZABAVA
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="quiz.html">KVIZ</a>
+                          </div>
+                        </li>
+               
+           <li class="nav-item">
+             <a class="nav-link" href="o_nama.html"> <img src="slike/about.png" width="23px">O NAMA</a>
+           </li>
+           <li class="nav-item" id="nav-kontakt">
+               <a class="nav-link" href="kontakt.html"><img src="slike/kontakt.png" width="33px" height="32px">KONTAKT</a>
+             </li>
+         <li class="nav-item">
+                       <a class="nav-link" href="prognoza.html"> <img src="slike/icon_prognoza.png" width="20px"> VRIJEME</a>
+                     </li> 
+         
+         </ul>
+       </div>
+     </nav>
+</div>
+<!-- Dio sa prognozom -->
+<div class="container1">
+    <div class="row">
+        <div class="col">
+            <header class="header">
+                <div class="search">
+                  <input style="border-radius:8px;outline: none" type="text" placeholder="Enter City Name" id="search-txt">
+                  <a id="search-btn" href="#"><i class="fas fa-search" ></i></a>
+                </div>
+              </header>
+  </div>
+      </div>
+    <div class="row">
+      <div class="col2">
+          <div class="city-icon">
+              <div class="city-icon-holder">
+              <div id="city-name"></div>
+              <img src="" alt="" id="icon">
+              <div id="description"></div>
+                </div>
+            </div>
+</div>
+    </div>
+<div class="row">
+   <div class="col">
+      <div class="temperature">
+          <div id="temp"> </div>
+        </div>  
+       
+   </div>
+<div class="col">
+    <div class="humidity">
+          <div id="humidity-div"></div>
+        </div>  
+
+</div>
+</div>
+</div>
+
+
+
+
+  
+
+    <script  src="js/vrijeme_api.js"></script>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+ <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

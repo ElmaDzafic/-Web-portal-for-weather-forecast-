@@ -1,0 +1,100 @@
+
+/* LOGIN FORM */
+
+body {font-family: Arial, Helvetica, sans-serif;
+
+  background-color: #e9e2dd;
+
+
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+.container1{
+  border:none;
+  box-shadow: none;
+
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancel {
+  padding: 14px 20px;
+  margin: 8px 0;
+  
+  background-color: #7e7d7d!important;
+}
+
+
+
+.container {
+  display: none; 
+  position: fixed;
+  left: 15%;
+  top: 15%;
+  right: 25%;
+ 
+  width: 75%;
+  height: 90%; 
+  background-color: #e9e2dd; 
+  padding-top: 60px;
+  padding: 5% 15% 0% 15%;
+ 
+}
+
+.container-content {
+  background-color: #fefefe;
+  margin: 5% 15% 15% auto; 
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+
+
+
+.container1{
+  font-size: 350%;
+  font-weight: bolder;
+  margin: 20% 35% 0% 32%;
+}
+
+
+.button1{
+  font-size: 20px;
+
+}
+.row1{
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+}
+#tekst{
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+
+}
